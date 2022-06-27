@@ -1,0 +1,226 @@
+{
+	"info": {
+		"_postman_id": "5c0a2bb9-dbf3-4ea9-87c4-892be7a06fe4",
+		"name": "ExamenBAZ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "SaveGenders",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\":\"10\",\n    \"name\":\"tesF\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7001/CCBanorte/services/api/SaveGenders",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7001",
+					"path": [
+						"CCBanorte",
+						"services",
+						"api",
+						"SaveGenders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SaveEmployees",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\":\"50\",\n    \"GenderId\":\"1\",\n    \"JobId\":\"1\",\n    \"Name\":\"XAVI\",\n    \"LastName\":\"TEST2 S\",\n    \"Birthate\":\"18/03/1993\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7001/CCBanorte/services/api/SaveEmployees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7001",
+					"path": [
+						"CCBanorte",
+						"services",
+						"api",
+						"SaveEmployees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SaveEmployees",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\n{\n\"id\":1,\n\"genderId\":1,\n\"jobId\":1,\n\"name\":\"456t\",\n\"lastName\":\"1\",\n\"birthate\":\"18-03-2018\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7001/CCBanorte/services/api/SaveEmployees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7001",
+					"path": [
+						"CCBanorte",
+						"services",
+						"api",
+						"SaveEmployees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SaveEmployeesWorkedHour",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\n{\n\"id\":2,\n\"employeeId\":2,\n\"workedHours\":20,\n\"workedDate\":\"25/06/2022\"\n\n}\n\n \n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7001/CCBanorte/services/api/SaveEmployeesWorkedHour",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7001",
+					"path": [
+						"CCBanorte",
+						"services",
+						"api",
+						"SaveEmployeesWorkedHour"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SelectEmployeesorJobs",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\n{\n\"id\":1\n\n}\n\n \n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7001/CCBanorte/services/api/SelectEmployeesorJobs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7001",
+					"path": [
+						"CCBanorte",
+						"services",
+						"api",
+						"SelectEmployeesorJobs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TotalWorkedHours",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\n{\n\"employeeId\":2,\n\"startDate\":\"23-06-22\",\n\"endDate\":\"24-06-22\"\n\n}\n\n \n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7001/CCBanorte/services/api/TotalWorkedHours",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7001",
+					"path": [
+						"CCBanorte",
+						"services",
+						"api",
+						"TotalWorkedHours"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TotalWorkedHours Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\n{\n\"employeeId\":2,\n\"startDate\":\"20-12-20\",\n\"endDate\":\"24-06-22\"\n\n}\n\n \n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7001/CCBanorte/services/api/payment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7001",
+					"path": [
+						"CCBanorte",
+						"services",
+						"api",
+						"payment"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
